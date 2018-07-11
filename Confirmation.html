@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
+    <script type="text/javascript" src="js/mobile.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        <a href="Home.html" class="logo">
+            <img src="images/logo1.jpg" alt="">
+        </a>
+        <ul id="navigation">
+            <li class="selected">
+                <a href="Home.html">home</a>
+            </li>
+            <li>
+                <a href="About.html">about</a>
+            </li>
+            <li>
+                <a href="Gallary.html">gallery</a>
+            </li>
+            <li>
+                <a href="Contact.html">contact</a>
+            </li>
+            <li>
+                <a href="Feedback1.html">feedback</a>
+            </li>
+            <li>
+                <a id="hyper" href="LogIn1.html"></a>
+            </li>
+        </ul>
+    </div>
+    <form id="form1">
+        <div>
+            <div id="body">
+                <script>
+    function add_onclick() {
+        window.print();
+    }
+
+                </script>
+
+                <img src="images/suc1.png" alt=""><br /><br />
+                <h1><span>Booking Summery</span></h1>
+                <br /><br />
+                <center>
+                    <asp:GridView ID="GridView1" CssClass="demo4">
+                    </asp:GridView>
+
+                    <input id="add" type="submit" value="Print" class="demo2" onclick="return add_onclick()" /><br />
+                </center>
+
+                <img src="images/colorful.jpg" alt=""><br /><br />
+
+            </div>
+        </div>
+    </form>
+
+    <div id="footer">
+        <div>
+            <p>© copyright 2018 Sagar Parit. All rights reserved.</p>
+            <ul>
+                <li>
+                    <a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+                </li>
+                <li>
+                    <a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
+                </li>
+                <li>
+                    <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
+                </li>
+                <li>
+                    <a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
